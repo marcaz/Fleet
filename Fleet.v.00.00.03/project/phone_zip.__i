@@ -1,0 +1,5 @@
+-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -O2 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\CMSIS\Lib\ARM -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\headers -I..\..\Libraries\STM32_USB_Device_Library\Core\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Libraries\STM32_USB_Device_Library\Class\hid\inc -I..\sources\USB -I..\headers\GPS -I..\headers\Modem 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\ST\STM32F4xx 
+-DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DMANGUSTA_DISCOVERY -DUSE_USB_OTG_FS -DHSE_VALUE="8000000" -o "phone_zip.o" --omf_browse "phone_zip.crf" --depend "phone_zip.d" "..\sources\Modem\phone_zip.c"
