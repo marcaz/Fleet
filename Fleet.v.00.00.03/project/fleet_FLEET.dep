@@ -1,490 +1,0 @@
-Dependencies for Project 'fleet', Target 'FLEET': (DO NOT MODIFY !)
-F (..\sources\system_stm32f4xx.c)(0x50CAC4B1)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -O2 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\CMSIS\Lib\ARM -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\headers -I..\..\Libraries\STM32_USB_Device_Library\Core\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Libraries\STM32_USB_Device_Library\Class\hid\inc -I..\sources\USB -I..\headers\GPS -I..\headers\Modem -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DMANGUSTA_DISCOVERY -DUSE_USB_OTG_FS -DHSE_VALUE="8000000" -o "system_stm32f4xx.o" --omf_browse "system_stm32f4xx.crf" --depend "system_stm32f4xx.d")
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x4EAA6856)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB118D4)
-I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x4EAA6856)
-I (..\headers\stm32f4xx_conf.h)(0x50CB33D6)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAA685A)
-F (..\sources\startup_stm32f4xx.s)(0x4E9C242C)(--cpu Cortex-M4.fp --pd "__RTX SETA 1" --apcs=interwork --pd "__MICROLIB SETA 1" -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx --list ".\startup_stm32f4xx.lst" --xref -o ".\startup_stm32f4xx.o" --depend ".\startup_stm32f4xx.d")
-F (..\sources\stm32f4xx_it.c)(0x50CDE779)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -O2 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\CMSIS\Lib\ARM -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\headers -I..\..\Libraries\STM32_USB_Device_Library\Core\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Libraries\STM32_USB_Device_Library\Class\hid\inc -I..\sources\USB -I..\headers\GPS -I..\headers\Modem -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DMANGUSTA_DISCOVERY -DUSE_USB_OTG_FS -DHSE_VALUE="8000000" -o "stm32f4xx_it.o" --omf_browse "stm32f4xx_it.crf" --depend "stm32f4xx_it.d")
-I (..\headers\stm32f4xx_it.h)(0x4EAA6874)
-I (..\headers\stm32f4xx.h)(0x50C9DE7A)
-I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x4EAA6856)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB118D4)
-I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x4EAA6856)
-I (..\headers\system_stm32f4xx.h)(0x4EAA6856)
-I (..\headers\stm32f4xx_conf.h)(0x50CB33D6)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x4EAA685A)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAA685A)
-I (..\headers\main.h)(0x50C8892F)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB118D8)
-F (..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\misc.c)(0x4EAA685A)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -O2 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\CMSIS\Lib\ARM -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\headers -I..\..\Libraries\STM32_USB_Device_Library\Core\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Libraries\STM32_USB_Device_Library\Class\hid\inc -I..\sources\USB -I..\headers\GPS -I..\headers\Modem -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DMANGUSTA_DISCOVERY -DUSE_USB_OTG_FS -DHSE_VALUE="8000000" -o "misc.o" --omf_browse "misc.crf" --depend "misc.d")
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAA685A)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x4EAA6856)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB118D4)
-I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x4EAA6856)
-I (..\headers\stm32f4xx_conf.h)(0x50CB33D6)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x4EAA685A)
-F (..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c)(0x4EAA685A)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -O2 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\CMSIS\Lib\ARM -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\headers -I..\..\Libraries\STM32_USB_Device_Library\Core\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Libraries\STM32_USB_Device_Library\Class\hid\inc -I..\sources\USB -I..\headers\GPS -I..\headers\Modem -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DMANGUSTA_DISCOVERY -DUSE_USB_OTG_FS -DHSE_VALUE="8000000" -o "stm32f4xx_gpio.o" --omf_browse "stm32f4xx_gpio.crf" --depend "stm32f4xx_gpio.d")
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x4EAA685A)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x4EAA6856)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB118D4)
-I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x4EAA6856)
-I (..\headers\stm32f4xx_conf.h)(0x50CB33D6)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAA685A)
-F (..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c)(0x4EAA685A)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -O2 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\CMSIS\Lib\ARM -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\headers -I..\..\Libraries\STM32_USB_Device_Library\Core\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Libraries\STM32_USB_Device_Library\Class\hid\inc -I..\sources\USB -I..\headers\GPS -I..\headers\Modem -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DMANGUSTA_DISCOVERY -DUSE_USB_OTG_FS -DHSE_VALUE="8000000" -o "stm32f4xx_rcc.o" --omf_browse "stm32f4xx_rcc.crf" --depend "stm32f4xx_rcc.d")
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAA685A)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x4EAA6856)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB118D4)
-I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x4EAA6856)
-I (..\headers\stm32f4xx_conf.h)(0x50CB33D6)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAA685A)
-F (..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c)(0x4EAA685A)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -O2 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\CMSIS\Lib\ARM -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\headers -I..\..\Libraries\STM32_USB_Device_Library\Core\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Libraries\STM32_USB_Device_Library\Class\hid\inc -I..\sources\USB -I..\headers\GPS -I..\headers\Modem -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DMANGUSTA_DISCOVERY -DUSE_USB_OTG_FS -DHSE_VALUE="8000000" -o "stm32f4xx_spi.o" --omf_browse "stm32f4xx_spi.crf" --depend "stm32f4xx_spi.d")
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x4EAA685A)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x4EAA6856)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB118D4)
-I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x4EAA6856)
-I (..\headers\stm32f4xx_conf.h)(0x50CB33D6)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAA685A)
-F (..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c)(0x4EAA685C)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -O2 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\CMSIS\Lib\ARM -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\headers -I..\..\Libraries\STM32_USB_Device_Library\Core\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Libraries\STM32_USB_Device_Library\Class\hid\inc -I..\sources\USB -I..\headers\GPS -I..\headers\Modem -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DMANGUSTA_DISCOVERY -DUSE_USB_OTG_FS -DHSE_VALUE="8000000" -o "stm32f4xx_usart.o" --omf_browse "stm32f4xx_usart.crf" --depend "stm32f4xx_usart.d")
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x4EAA685A)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x4EAA6856)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB118D4)
-I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x4EAA6856)
-I (..\headers\stm32f4xx_conf.h)(0x50CB33D6)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAA685A)
-F (..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c)(0x4EAA685A)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -O2 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\CMSIS\Lib\ARM -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\headers -I..\..\Libraries\STM32_USB_Device_Library\Core\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Libraries\STM32_USB_Device_Library\Class\hid\inc -I..\sources\USB -I..\headers\GPS -I..\headers\Modem -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DMANGUSTA_DISCOVERY -DUSE_USB_OTG_FS -DHSE_VALUE="8000000" -o "stm32f4xx_exti.o" --omf_browse "stm32f4xx_exti.crf" --depend "stm32f4xx_exti.d")
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x4EAA685A)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x4EAA6856)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB118D4)
-I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x4EAA6856)
-I (..\headers\stm32f4xx_conf.h)(0x50CB33D6)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAA685A)
-F (..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c)(0x4EAA685A)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -O2 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\CMSIS\Lib\ARM -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\headers -I..\..\Libraries\STM32_USB_Device_Library\Core\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Libraries\STM32_USB_Device_Library\Class\hid\inc -I..\sources\USB -I..\headers\GPS -I..\headers\Modem -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DMANGUSTA_DISCOVERY -DUSE_USB_OTG_FS -DHSE_VALUE="8000000" -o "stm32f4xx_syscfg.o" --omf_browse "stm32f4xx_syscfg.crf" --depend "stm32f4xx_syscfg.d")
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x4EAA685A)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x4EAA6856)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB118D4)
-I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x4EAA6856)
-I (..\headers\stm32f4xx_conf.h)(0x50CB33D6)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAA685A)
-F (..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c)(0x4EAA685A)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -O2 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\CMSIS\Lib\ARM -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\headers -I..\..\Libraries\STM32_USB_Device_Library\Core\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Libraries\STM32_USB_Device_Library\Class\hid\inc -I..\sources\USB -I..\headers\GPS -I..\headers\Modem -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DMANGUSTA_DISCOVERY -DUSE_USB_OTG_FS -DHSE_VALUE="8000000" -o "stm32f4xx_dma.o" --omf_browse "stm32f4xx_dma.crf" --depend "stm32f4xx_dma.d")
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x4EAA685A)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x4EAA6856)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB118D4)
-I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x4EAA6856)
-I (..\headers\stm32f4xx_conf.h)(0x50CB33D6)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAA685A)
-F (..\sources\main.c)(0x50CDED5E)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -O2 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\CMSIS\Lib\ARM -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\headers -I..\..\Libraries\STM32_USB_Device_Library\Core\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Libraries\STM32_USB_Device_Library\Class\hid\inc -I..\sources\USB -I..\headers\GPS -I..\headers\Modem -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DMANGUSTA_DISCOVERY -DUSE_USB_OTG_FS -DHSE_VALUE="8000000" -o "main.o" --omf_browse "main.crf" --depend "main.d")
-I (C:\Keil\ARM\RV31\INC\rtl.h)(0x504D874C)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB118D4)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB118D6)
-I (..\headers\main.h)(0x50C8892F)
-I (..\headers\stm32f4xx_conf.h)(0x50CB33D6)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x4EAA685A)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x4EAA6856)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB118D4)
-I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAA685A)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB118D8)
-I (..\headers\leds.h)(0x50C985B7)
-I (..\headers\acc.h)(0x50C98331)
-I (..\headers\stm32f4xx.h)(0x50C9DE7A)
-I (..\headers\acc_api.h)(0x50CAF7D0)
-I (..\headers\uart.h)(0x50CDF89D)
-F (..\sources\RTX_Conf_CM.c)(0x50CAC51D)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -O2 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\CMSIS\Lib\ARM -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\headers -I..\..\Libraries\STM32_USB_Device_Library\Core\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Libraries\STM32_USB_Device_Library\Class\hid\inc -I..\sources\USB -I..\headers\GPS -I..\headers\Modem -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DMANGUSTA_DISCOVERY -DUSE_USB_OTG_FS -DHSE_VALUE="8000000" -o "rtx_conf_cm.o" --omf_browse "rtx_conf_cm.crf" --depend "rtx_conf_cm.d")
-I (C:\Keil\ARM\RV31\INC\RTL.h)(0x504D874C)
-I (..\headers\main.h)(0x50C8892F)
-I (..\headers\stm32f4xx_conf.h)(0x50CB33D6)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x4EAA685A)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x4EAA6856)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB118D4)
-I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAA685A)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB118D8)
-I (..\headers\leds.h)(0x50C985B7)
-I (C:\Keil\ARM\RV31\INC\RTX_lib.c)(0x505068C8)
-F (..\sources\acc_api.c)(0x50CDED73)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -O2 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\CMSIS\Lib\ARM -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\headers -I..\..\Libraries\STM32_USB_Device_Library\Core\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Libraries\STM32_USB_Device_Library\Class\hid\inc -I..\sources\USB -I..\headers\GPS -I..\headers\Modem -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DMANGUSTA_DISCOVERY -DUSE_USB_OTG_FS -DHSE_VALUE="8000000" -o "acc_api.o" --omf_browse "acc_api.crf" --depend "acc_api.d")
-I (C:\Keil\ARM\RV31\INC\rtl.h)(0x504D874C)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB118D4)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB118D6)
-I (..\headers\main.h)(0x50C8892F)
-I (..\headers\stm32f4xx_conf.h)(0x50CB33D6)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x4EAA685A)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x4EAA6856)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB118D4)
-I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAA685A)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB118D8)
-I (..\headers\leds.h)(0x50C985B7)
-I (..\headers\uart.h)(0x50CDF89D)
-I (..\headers\acc.h)(0x50C98331)
-I (..\headers\stm32f4xx.h)(0x50C9DE7A)
-I (..\headers\acc_api.h)(0x50CAF7D0)
-F (..\sources\acc_driver.c)(0x50CAFCC8)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -O2 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\CMSIS\Lib\ARM -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\headers -I..\..\Libraries\STM32_USB_Device_Library\Core\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Libraries\STM32_USB_Device_Library\Class\hid\inc -I..\sources\USB -I..\headers\GPS -I..\headers\Modem -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DMANGUSTA_DISCOVERY -DUSE_USB_OTG_FS -DHSE_VALUE="8000000" -o "acc_driver.o" --omf_browse "acc_driver.crf" --depend "acc_driver.d")
-I (C:\Keil\ARM\RV31\INC\rtl.h)(0x504D874C)
-I (..\headers\acc.h)(0x50C98331)
-I (..\headers\stm32f4xx.h)(0x50C9DE7A)
-I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x4EAA6856)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB118D4)
-I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x4EAA6856)
-I (..\headers\system_stm32f4xx.h)(0x4EAA6856)
-I (..\headers\stm32f4xx_conf.h)(0x50CB33D6)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x4EAA685A)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAA685A)
-F (..\sources\leds.c)(0x50CDED7F)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -O2 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\CMSIS\Lib\ARM -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\headers -I..\..\Libraries\STM32_USB_Device_Library\Core\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Libraries\STM32_USB_Device_Library\Class\hid\inc -I..\sources\USB -I..\headers\GPS -I..\headers\Modem -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DMANGUSTA_DISCOVERY -DUSE_USB_OTG_FS -DHSE_VALUE="8000000" -o "leds.o" --omf_browse "leds.crf" --depend "leds.d")
-I (C:\Keil\ARM\RV31\INC\rtl.h)(0x504D874C)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB118D4)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB118D6)
-I (..\headers\main.h)(0x50C8892F)
-I (..\headers\stm32f4xx_conf.h)(0x50CB33D6)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x4EAA685A)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x4EAA6856)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB118D4)
-I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAA685A)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB118D8)
-I (..\headers\leds.h)(0x50C985B7)
-I (..\headers\acc.h)(0x50C98331)
-I (..\headers\stm32f4xx.h)(0x50C9DE7A)
-I (..\headers\uart.h)(0x50CDF89D)
-F (..\sources\uart_api.c)(0x50CDF23B)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -O2 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\CMSIS\Lib\ARM -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\headers -I..\..\Libraries\STM32_USB_Device_Library\Core\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Libraries\STM32_USB_Device_Library\Class\hid\inc -I..\sources\USB -I..\headers\GPS -I..\headers\Modem -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DMANGUSTA_DISCOVERY -DUSE_USB_OTG_FS -DHSE_VALUE="8000000" -o "uart_api.o" --omf_browse "uart_api.crf" --depend "uart_api.d")
-I (C:\Keil\ARM\RV31\INC\rtl.h)(0x504D874C)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB118D4)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB118D6)
-I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB118D6)
-I (..\headers\main.h)(0x50C8892F)
-I (..\headers\stm32f4xx_conf.h)(0x50CB33D6)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x4EAA685A)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x4EAA6856)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB118D4)
-I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAA685A)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB118D8)
-I (..\headers\leds.h)(0x50C985B7)
-I (..\headers\acc.h)(0x50C98331)
-I (..\headers\stm32f4xx.h)(0x50C9DE7A)
-I (..\headers\uart.h)(0x50CDF89D)
-F (..\sources\uart_driver.c)(0x50CDEBFE)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -O2 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\CMSIS\Lib\ARM -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\headers -I..\..\Libraries\STM32_USB_Device_Library\Core\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Libraries\STM32_USB_Device_Library\Class\hid\inc -I..\sources\USB -I..\headers\GPS -I..\headers\Modem -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DMANGUSTA_DISCOVERY -DUSE_USB_OTG_FS -DHSE_VALUE="8000000" -o "uart_driver.o" --omf_browse "uart_driver.crf" --depend "uart_driver.d")
-I (C:\Keil\ARM\RV31\INC\rtl.h)(0x504D874C)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB118D4)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB118D6)
-I (..\headers\main.h)(0x50C8892F)
-I (..\headers\stm32f4xx_conf.h)(0x50CB33D6)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x4EAA685A)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x4EAA6856)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB118D4)
-I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAA685A)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB118D8)
-I (..\headers\leds.h)(0x50C985B7)
-I (..\headers\acc.h)(0x50C98331)
-I (..\headers\stm32f4xx.h)(0x50C9DE7A)
-I (..\headers\uart.h)(0x50CDF89D)
-F (..\sources\Modem\phone_api.c)(0x50CDF5F5)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -O2 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\CMSIS\Lib\ARM -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\headers -I..\..\Libraries\STM32_USB_Device_Library\Core\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Libraries\STM32_USB_Device_Library\Class\hid\inc -I..\sources\USB -I..\headers\GPS -I..\headers\Modem -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DMANGUSTA_DISCOVERY -DUSE_USB_OTG_FS -DHSE_VALUE="8000000" -o "phone_api.o" --omf_browse "phone_api.crf" --depend "phone_api.d")
-I (C:\Keil\ARM\RV31\INC\RTL.h)(0x504D874C)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB118D4)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB118D6)
-I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB118D6)
-I (..\headers\main.h)(0x50C8892F)
-I (..\headers\stm32f4xx_conf.h)(0x50CB33D6)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x4EAA685A)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x4EAA6856)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB118D4)
-I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAA685A)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB118D8)
-I (..\headers\Modem\phone_com.h)(0x4FBC72A9)
-I (..\headers\Modem\phone_zip.h)(0x50CDF563)
-I (..\headers\Modem\phone_header.h)(0x4FBC72A9)
-I (..\headers\Modem\phone_tools.h)(0x4FBC72A9)
-I (..\headers\Modem\phone_api.h)(0x50CDF7DF)
-I (..\headers\uart.h)(0x50CDF89D)
-I (..\headers\Modem\phone_sms_sending.h)(0x4FBC72A9)
-F (..\sources\Modem\phone_com.c)(0x50CDF600)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -O2 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\CMSIS\Lib\ARM -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\headers -I..\..\Libraries\STM32_USB_Device_Library\Core\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Libraries\STM32_USB_Device_Library\Class\hid\inc -I..\sources\USB -I..\headers\GPS -I..\headers\Modem -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DMANGUSTA_DISCOVERY -DUSE_USB_OTG_FS -DHSE_VALUE="8000000" -o "phone_com.o" --omf_browse "phone_com.crf" --depend "phone_com.d")
-I (..\headers\Modem\phone_com.h)(0x4FBC72A9)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\STM32F4xx.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x4EAA6856)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB118D4)
-I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x4EAA6856)
-I (..\headers\stm32f4xx_conf.h)(0x50CB33D6)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAA685A)
-I (..\headers\Modem\phone_sms_sending.h)(0x4FBC72A9)
-I (..\headers\uart.h)(0x50CDF89D)
-F (..\sources\Modem\phone_sms_sending.c)(0x50CDF8DF)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -O2 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\CMSIS\Lib\ARM -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\headers -I..\..\Libraries\STM32_USB_Device_Library\Core\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Libraries\STM32_USB_Device_Library\Class\hid\inc -I..\sources\USB -I..\headers\GPS -I..\headers\Modem -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DMANGUSTA_DISCOVERY -DUSE_USB_OTG_FS -DHSE_VALUE="8000000" -o "phone_sms_sending.o" --omf_browse "phone_sms_sending.crf" --depend "phone_sms_sending.d")
-I (C:\Keil\ARM\RV31\INC\RTL.h)(0x504D874C)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB118D4)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB118D6)
-I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB118D6)
-I (..\headers\main.h)(0x50C8892F)
-I (..\headers\stm32f4xx_conf.h)(0x50CB33D6)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x4EAA685A)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x4EAA6856)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB118D4)
-I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAA685A)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB118D8)
-I (..\headers\leds.h)(0x50C985B7)
-I (..\headers\uart.h)(0x50CDF89D)
-I (..\headers\GPS\nmea_api.h)(0x50CDF874)
-I (..\headers\GPS\nmea_data.h)(0x4FBC72A5)
-I (..\headers\acc_api.h)(0x50CAF7D0)
-I (..\headers\Modem\phone_api.h)(0x50CDF7DF)
-I (..\headers\Modem\phone_zip.h)(0x50CDF563)
-I (..\headers\Modem\phone_sms_sending.h)(0x4FBC72A9)
-F (..\sources\Modem\phone_tools.c)(0x50CDEF83)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -O2 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\CMSIS\Lib\ARM -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\headers -I..\..\Libraries\STM32_USB_Device_Library\Core\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Libraries\STM32_USB_Device_Library\Class\hid\inc -I..\sources\USB -I..\headers\GPS -I..\headers\Modem -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DMANGUSTA_DISCOVERY -DUSE_USB_OTG_FS -DHSE_VALUE="8000000" -o "phone_tools.o" --omf_browse "phone_tools.crf" --depend "phone_tools.d")
-I (..\headers\Modem\phone_com.h)(0x4FBC72A9)
-I (..\headers\Modem\phone_zip.h)(0x50CDF563)
-I (..\headers\Modem\phone_tools.h)(0x4FBC72A9)
-F (..\sources\Modem\phone_zip.c)(0x50CDF7FD)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -O2 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\CMSIS\Lib\ARM -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\headers -I..\..\Libraries\STM32_USB_Device_Library\Core\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Libraries\STM32_USB_Device_Library\Class\hid\inc -I..\sources\USB -I..\headers\GPS -I..\headers\Modem -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DMANGUSTA_DISCOVERY -DUSE_USB_OTG_FS -DHSE_VALUE="8000000" -o "phone_zip.o" --omf_browse "phone_zip.crf" --depend "phone_zip.d")
-I (..\headers\Modem\phone_zip.h)(0x50CDF563)
-F (..\sources\GPS\nmea_api.c)(0x50CDF845)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -O2 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\CMSIS\Lib\ARM -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\headers -I..\..\Libraries\STM32_USB_Device_Library\Core\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Libraries\STM32_USB_Device_Library\Class\hid\inc -I..\sources\USB -I..\headers\GPS -I..\headers\Modem -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DMANGUSTA_DISCOVERY -DUSE_USB_OTG_FS -DHSE_VALUE="8000000" -o "nmea_api.o" --omf_browse "nmea_api.crf" --depend "nmea_api.d")
-I (C:\Keil\ARM\RV31\INC\RTL.h)(0x504D874C)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB118D6)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB118D4)
-I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB118D6)
-I (..\headers\main.h)(0x50C8892F)
-I (..\headers\stm32f4xx_conf.h)(0x50CB33D6)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x4EAA685A)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x4EAA6856)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB118D4)
-I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAA685A)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB118D8)
-I (C:\Keil\ARM\RV31\INC\string.h)(0x4F587BCC)
-I (..\headers\GPS\nmea_api.h)(0x50CDF874)
-I (..\headers\GPS\nmea_data.h)(0x4FBC72A5)
-I (..\headers\uart.h)(0x50CDF89D)
-F (..\sources\GPS\nmea_data.c)(0x50CDF87C)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -O2 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\CMSIS\Lib\ARM -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\headers -I..\..\Libraries\STM32_USB_Device_Library\Core\inc -I..\..\Libraries\STM32_USB_OTG_Driver\inc -I..\..\Libraries\STM32_USB_Device_Library\Class\hid\inc -I..\sources\USB -I..\headers\GPS -I..\headers\Modem -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DMANGUSTA_DISCOVERY -DUSE_USB_OTG_FS -DHSE_VALUE="8000000" -o "nmea_data.o" --omf_browse "nmea_data.crf" --depend "nmea_data.d")
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB118D6)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB118D4)
-I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB118D6)
-I (..\headers\GPS\nmea_api.h)(0x50CDF874)
-I (..\headers\main.h)(0x50C8892F)
-I (..\headers\stm32f4xx_conf.h)(0x50CB33D6)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x4EAA685A)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x4EAA6856)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB118D4)
-I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x4EAA6856)
-I (..\..\Libraries\CMSIS\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x4EAA6856)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x4EAA685A)
-I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EAA685A)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB118D8)
-I (..\headers\GPS\nmea_data.h)(0x4FBC72A5)
-I (..\headers\uart.h)(0x50CDF89D)
